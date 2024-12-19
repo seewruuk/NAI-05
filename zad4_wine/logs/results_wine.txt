@@ -1,0 +1,2 @@
+Small Model Accuracy: 1.0
+Large Model Accuracy: 1.0
