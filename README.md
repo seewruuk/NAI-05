@@ -21,6 +21,9 @@ na zbiory treningowy i testowy, normalizuje dane, a następnie trenuje dwie siec
 
 Na koniec wyniki obu modeli są porównywane, a logi i wykresy zapisywane w katalogu `logs/`.
 
+![training_history_iris](https://github.com/user-attachments/assets/4d22759f-117d-4c1e-8925-a828072db824)
+
+
 ## CIFAR-10 Classification (Modified to Dense Layers Only)
 
 Ten notebook wykorzystuje zbiór CIFAR-10 (wbudowany w Keras).
@@ -29,11 +32,18 @@ Obrazy zostaną spłaszczone i podane do MLP.
 
 Wyniki i wykresy zapisywane są w katalogu `logs/`.
 
+![training_history_cifar10](https://github.com/user-attachments/assets/0481adb2-e628-4933-9a28-da525a90b78c)
+
+
 ## Fashion-MNIST Classification (Modified to Dense Layers Only)
 
 Ten notebook wykorzystuje zbiór Fashion-MNIST (wbudowany w Keras) i trenuje model MLP.
 
 Rysujemy również macierz pomyłek, a wyniki i logi zapisujemy w katalogu `logs/`.
+
+![training_history_fashion_mnist](https://github.com/user-attachments/assets/fef88f94-907b-4c09-8795-23f5e64d4ff0)
+![confusion_matrix](https://github.com/user-attachments/assets/c7b88078-284f-47c5-8710-a505bb6c9bee)
+
 
 ## Wine Classification
 
@@ -43,3 +53,8 @@ na podstawie cech chemicznych. Porównuje dwa modele o różnej wielkości:
 2. Większy, głębszy model
 
 Wyniki są zapisywane w katalogu `logs/`.
+
+
+![training_history_wine_small](https://github.com/user-attachments/assets/f92b2623-7b09-4885-87d8-646785b19098)
+![training_history_wine_large](https://github.com/user-attachments/assets/bc60c05e-2c52-4b9b-866f-90984a0d19c6)
+
