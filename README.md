@@ -20,3 +20,27 @@ na zbiory treningowy i testowy, normalizuje dane, a następnie trenuje dwie siec
 2. Model z pojedynczą warstwą Dense (odpowiednik regresji logistycznej), również w Keras.
 
 Na koniec wyniki obu modeli są porównywane, a logi i wykresy zapisywane w katalogu `logs/`.
+
+## CIFAR-10 Classification (Modified to Dense Layers Only)
+
+Ten notebook wykorzystuje zbiór CIFAR-10 (wbudowany w Keras).
+Zamiast sieci konwolucyjnej (CNN), używa teraz wyłącznie warstw Dense.
+Obrazy zostaną spłaszczone i podane do MLP.
+
+Wyniki i wykresy zapisywane są w katalogu `logs/`.
+
+## Fashion-MNIST Classification (Modified to Dense Layers Only)
+
+Ten notebook wykorzystuje zbiór Fashion-MNIST (wbudowany w Keras) i trenuje model MLP.
+Zamiast używać warstw konwolucyjnych, spłaszczamy obrazy do wektora i używamy Dense.
+
+Rysujemy również macierz pomyłek, a wyniki i logi zapisujemy w katalogu `logs/`.
+
+## Wine Classification
+
+Ten notebook korzysta z zbioru Wine (z sklearn), klasyfikując rodzaje wina (3 klasy)
+na podstawie cech chemicznych. Porównuje dwa modele o różnej wielkości:
+1. Mały model (jedna ukryta warstwa)
+2. Większy, głębszy model
+
+Wyniki są zapisywane w katalogu `logs/`.
