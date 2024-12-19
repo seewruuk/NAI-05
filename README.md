@@ -24,7 +24,7 @@ Na koniec wyniki obu modeli są porównywane, a logi i wykresy zapisywane w kata
 ## CIFAR-10 Classification (Modified to Dense Layers Only)
 
 Ten notebook wykorzystuje zbiór CIFAR-10 (wbudowany w Keras).
-Zamiast sieci konwolucyjnej (CNN), używa teraz wyłącznie warstw Dense.
+Używa wyłącznie warstw Dense.
 Obrazy zostaną spłaszczone i podane do MLP.
 
 Wyniki i wykresy zapisywane są w katalogu `logs/`.
@@ -32,7 +32,6 @@ Wyniki i wykresy zapisywane są w katalogu `logs/`.
 ## Fashion-MNIST Classification (Modified to Dense Layers Only)
 
 Ten notebook wykorzystuje zbiór Fashion-MNIST (wbudowany w Keras) i trenuje model MLP.
-Zamiast używać warstw konwolucyjnych, spłaszczamy obrazy do wektora i używamy Dense.
 
 Rysujemy również macierz pomyłek, a wyniki i logi zapisujemy w katalogu `logs/`.
 
